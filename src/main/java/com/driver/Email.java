@@ -45,12 +45,11 @@ public class Email {
                 else
                     spchar = 1;
 
-            }
-                if(len==1 && upper==1 && lower==1 && dig==1 && spchar==1 &&  size>=8)
-                {
-                    this.password=newPassword;
-                }
 
+                if (len == 1 && upper == 1 && lower == 1 && dig == 1 && spchar == 1 && size >= 8) {
+                    this.password = newPassword;
+                }
+            }
 
 
         }
