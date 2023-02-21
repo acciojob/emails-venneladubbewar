@@ -45,7 +45,7 @@ public class Email {
                      spchar=1;
                 if(ch>=48 && ch <=57)  dig = 1;
 
-                if(len==1 && upper==1 && lower==1 && dig==1 && spchar==1 && size>=8)
+                if(len==1 && upper==1 && lower==1 && dig==1 && spchar==1 &&  size>=8)
                 {
                     this.password=newPassword;
                 }
