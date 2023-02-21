@@ -45,7 +45,7 @@ public class Workspace extends Gmail{
 
         for(int i=1; i<endTimes.size(); i++)
         {
-            if(calendar.get(endTimes.get(i).getRight()).getStartTime().compareTo(time_limit) >0);
+            if(calendar.get(endTimes.get(i).getRight()).getStartTime().compareTo(time_limit) >= 0);
             cnt++;
 
             time_limit = endTimes.get(i).getLeft();
