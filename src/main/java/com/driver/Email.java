@@ -39,8 +39,8 @@ public class Email {
                 len = 1;
                 char ch = newPassword.charAt(i);
                 if (ch > 64 && ch < 91) upper = 1;
-                if (ch > 96 && ch < 123) lower = 1;
-                if (ch >= 48 && ch <= 57) dig = 1;
+                else if (ch > 96 && ch < 123) lower = 1;
+               else if (ch >= 48 && ch <= 57) dig = 1;
                     // if((ch>=32 && ch <=47) || (ch>= 58 && ch<=64) || (ch>=91 && ch<=96) ||(ch <=123 && ch>=126))
                 else
                     spchar = 1;
